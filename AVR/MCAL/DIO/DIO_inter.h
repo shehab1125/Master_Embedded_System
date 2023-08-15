@@ -35,6 +35,10 @@
 #define VAL_HIGH 1
 #define VAL_LOW 0
 
+#define VAL_HIGH_ALL  255
+#define VAL_LOW_ALL   0
+
+
 void DIO_vSetPinDir(u8 A_u8portId,u8 A_u8PinId,u8 A_u8Dir);
 
 void DIO_vSetPinVal(u8 A_u8portId,u8 A_u8PinId,u8 A_u8Val);
